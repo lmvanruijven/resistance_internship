@@ -1,0 +1,23 @@
+P1_e <->
+P2_e <->
+P3_e <->
+P4_e <->
+P5_e <->
+P6_e <->
+P7_e <->
+X5_e <->
+P1_e -> X1_c
+P4_e -> X1_c + X2_c
+X1_c -> P2_e
+X1_c -> P3_e
+X2_c -> P5_e
+X3_c -> P6_e
+X3_c -> P7_e
+X1_c -> X2_c
+X1_c -> X2_c
+X1_c -> X3_c
+X2_c -> X3_c
+X2_c + X3_c -> X4_c
+X2_c -> X5_e
+X3_c -> X5_e
+X4_c -> X5_e
